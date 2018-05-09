@@ -1,0 +1,116 @@
+body {
+  background-image: url("images/pineapple.jpg");
+  background-color: #F2F9FC;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #2E2E2E
+}
+
+h1 {
+  font-size: 70px;
+  color: #171717;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 8px;
+  line-height: 1;
+  /*text-decoration: underline;*/
+}
+
+p {
+  color: #171717;
+}
+
+h2 {
+  font-size: 30px
+}
+
+h3 {
+  font-size: 50px
+}
+
+a {
+  color: #33658A;
+  text-decoration: none
+}
+
+a:hover {
+  /*text-decoration: underline;*/
+  color: #1C384C;
+}
+
+div {
+  background: white;
+  margin: 30px;
+  padding: 40px;
+  border: 1px solid #9CC7DF;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 1100px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  background: #F1F9FC;
+  padding: 1px;
+  border: 1px solid #9CC7DF
+}
+
+.img {
+  border-radius: 50%;
+  border: 1px solid #9CC7DF
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.icon {
+  padding: 5px 5px;
+}
+
+.heading-table {
+  font-size: 30px;
+}
+
+/*.table-stretch {
+  width: 50%
+}*/
+
+.table-input {
+  padding: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
